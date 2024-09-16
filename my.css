@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+.header {
+    background: #007BFF; /* Changed to a more vibrant blue */
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem; /* Added more padding for better spacing */
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem; /* Added margin for better spacing */
+}
+
+.intro h1 {
+    margin-top: 0.5rem;
+    font-size: 2rem; /* Increased font size for emphasis */
+}
+
+.intro p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+/* Portfolio Styles */
+.portfolio {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #ffffff; /* Added background color for contrast */
+    border-top: 4px solid #007BFF; /* Added border for visual separation */
+}
+
+.portfolio h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem; /* Slightly larger heading */
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem; /* Added gap between items */
+}
+
+.portfolio-item {
+    background: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    max-width: 300px; /* Added max-width for consistent sizing */
+    text-align: left; /* Text alignment to left for better readability */
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Contact Styles */
+.contact {
+    background: #ffffff; /* Consistent background color */
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top: 4px solid #007BFF; /* Matching border style */
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem; /* Consistent heading size */
+}
+
+.contact p {
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, 
+.contact textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd; /* Lighter border color */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.contact button {
+    background: #007BFF; /* Matching button color */
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem; /* Consistent button text size */
+}
+
+.contact button:hover {
+    background: #0056b3; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+.footer {
+    background: #343a40; /* Dark footer background */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem; /* Slightly smaller font size */
+}
+
+.footer p {
+    margin: 0;
+}
